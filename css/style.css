@@ -40,8 +40,8 @@ footer p {
 	margin: 0;
 }
 footer p a{
-	color: white;
-	font-weight: bold;
+	color: white !important;
+	font-weight: bold !important;
 }
 main {
 	font-size: 1.2rem;
