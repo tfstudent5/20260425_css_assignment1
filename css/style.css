@@ -35,6 +35,10 @@ footer {
     line-height: 1;
     overflow: hidden;   /* Keeps internal margins contained */
 }
+footer a {
+	color: white;
+	font-weight: bold;
+}
 footer p {
 	/* stop the margin interfering with the padding */
 	margin: 0;
