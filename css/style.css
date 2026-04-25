@@ -39,7 +39,7 @@ footer p {
 	/* stop the margin interfering with the padding */
 	margin: 0;
 }
-footer a {
+footer > p > a {
 	color: white;
 	font-weight: bold;
 }
