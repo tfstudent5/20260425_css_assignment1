@@ -1,33 +1,28 @@
+/* 3. Write a CSS rule to style the body tag to modify the font family and font size properties. */
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
-  background-color: #AAFFAA;
+  background-color: orange; 
 }
 
-/* CSS rules for the header nav bar and its child components */
+/* 4. Write a CSS rule to style the header tag to modify the background color property. */
 header {
+	background-color: lightblue;
+	line-height: 1.6em;
+}
+
+/* 5. Write a CSS rule to style the nav tag to modify the background color property. */
+nav {
+	background-color: lightyellow;
+}
+
+/* 6 - Write a CSS rule to style the main tag to modify the background color and font size property */
+main {
+	font-size: 1.2rem;
 	background-color: lightgreen;
 }
-/* alter the style of list in the nav bar */
-header > nav > ul {
-	list-style: none;
-	background-color: green;
-	margin: 0px;
-	padding: 10px;
-}
-/* Alter style of the nav bar list elements */
-header > nav > ul > li {
-	display: inline-block;
-	color: white;
-	margin: 0px;
-	width: 300px;
-}
-/* make the links the same as li and remove the underline */
-header > nav > ul > li > a {
-	color: inherit;
-	text-decoration: none;
-}
 
+/* 7 - Write a CSS rule to style the footer tag to modify the background color property. */
 footer {
     background-color: green;
     color: white;
@@ -35,22 +30,28 @@ footer {
     line-height: 1;
     overflow: hidden;   /* Keeps internal margins contained */
 }
-footer p {
-	/* stop the margin interfering with the padding */
-	margin: 0;
+
+/* 8 - Write a CSS rule to style the li tag to modify the display and width properties.  */
+ul {
+	list-style: none;
 }
-footer p a{
-	color: white !important;
-	font-weight: bold !important;
+li {
+	display: inline-block;
+	width: 300px;
 }
-main {
-	font-size: 1.2rem;
+li > a {
+	text-decoration: none;
 }
-main > p {
-	line-height: 1.8em;
-}
+
+/* 9 - Write a CSS rule to style the h1 tag to modify the text alignment, font family, and color  properties. */
 h1 {
 	font-size: 4rem;
+	font-family: 'Times New Roman',Georgia, serif;
 	text-align: center;
 	color: #000080;  /* navy blue */
+	line-height: 1.2em;
+}
+/* 10 - Write a CSS rule to style the p tag to modify the line height property. */
+p {
+	line-height: 1.6em;
 }
